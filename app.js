@@ -27,9 +27,11 @@ let stocks = {
   
               setTimeout(() => {
                 console.log(`${stocks.topping[0]} was added as topping`);
+                
   
                 setTimeout(() => {
                   console.log("Served Ice-cream");
+                  console.log("Thank you for choosing us");
                 }, 2000);
               }, 3000);
             }, 2000);
